@@ -6,9 +6,9 @@ export function Services() {
       <div className="mb-14 flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
         <div>
           <p className="mb-3 text-[11px] tracking-[0.28em] text-muted uppercase">
-            Két szolgáltatás
+            Szolgáltatások
           </p>
-          <h2 className="font-serif text-4xl tracking-wide md:text-5xl">Fodrász és pedikűr</h2>
+          <h2 className="font-serif text-4xl tracking-wide md:text-5xl">Fodrász & Pedikűr</h2>
         </div>
         <p className="max-w-sm text-sm leading-relaxed text-muted">
           Ennyi. Pontos vágás, tiszta forma, ápolt láb — felesleg nélkül.

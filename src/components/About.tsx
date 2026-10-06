@@ -16,11 +16,10 @@ export function About() {
           Pedikűr.
         </h2>
         <p className="mt-8 max-w-md text-sm leading-[1.85] text-muted">
-          A RORA Budapesten két dologra figyel: a hajra és a lábra. Nincs masszázs,
-          nincs arckezelés, nincs extra menü — csak tiszta vágás, festés és pedikűr.
+          A RORA Budapesten két dologra figyel: a hajra és a lábra.
         </p>
         <p className="mt-5 max-w-md text-sm leading-[1.85] text-muted">
-          Letisztult tér, lassú ritmus, precíz kezek. A forma a tiéd, a felesleg kint marad.
+          Letisztult tér, lassú ritmus, precíz kezek. A forma a tiéd.
         </p>
       </div>
     </section>
