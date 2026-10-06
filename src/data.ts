@@ -1,3 +1,5 @@
+const asset = (path: string) => `${import.meta.env.BASE_URL}${path}`
+
 export const nav = [
   { href: '#szolgaltatasok', label: 'Szolgáltatások' },
   { href: '#rolunk', label: 'Rólunk' },
@@ -11,10 +13,10 @@ export const services = [
     description: 'Vágás, festés, forma. Tiszta vonalak, semmi felesleg.',
     image: asset('images/hair.jpg'),
   },
-  {'/images/hair.jpg'
+  {
     title: 'Pedikűr',
     description: 'Klasszikus és esztétikai pedikűr. Precíz, nyugodt, tartós.',
-    image: '/images/pedi.jpg',
+    image: asset('images/pedi.jpg'),
   },
 ]
 
@@ -45,10 +47,10 @@ export const bookingOptions = treatmentGroups.flatMap((group) =>
 )
 
 export const gallery = [
-  '/images/g1.jpg',
-  '/images/g3.jpg',
-  '/images/g2.jpg',
-  '/images/g4.jpg',
-  '/images/hero.jpg',
-  '/images/pedi.jpg',
+  asset('images/g1.jpg'),
+  asset('images/g3.jpg'),
+  asset('images/g2.jpg'),
+  asset('images/g4.jpg'),
+  asset('images/hero.jpg'),
+  asset('images/pedi.jpg'),
 ]

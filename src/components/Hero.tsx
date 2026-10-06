@@ -2,7 +2,7 @@ export function Hero() {
   return (
     <section id="top" className="relative h-[100svh] min-h-[640px] overflow-hidden">
       <img
-        src="/images/hero.jpg"
+        src={`${import.meta.env.BASE_URL}images/hero.jpg`}
         alt=""
         className="absolute inset-0 h-full w-full object-cover object-[center_35%]"
       />
