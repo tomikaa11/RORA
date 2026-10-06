@@ -15,16 +15,16 @@ export function Visit() {
         <p className="mb-4 text-[11px] tracking-[0.28em] text-muted uppercase">Látogatás</p>
         <h2 className="font-serif text-4xl tracking-wide md:text-5xl">A szalon</h2>
         <p className="mt-8 max-w-sm text-sm leading-[1.85] text-muted">
-          Budapest belvárosa. Fodrász és pedikűr — egy csendes térben.
+          Budapest külvárosa. Fodrász és pedikűr — egy csendes térben.
         </p>
 
         <div className="mt-12 space-y-8 text-sm">
           <div>
             <p className="text-[11px] tracking-[0.2em] text-muted uppercase">Cím</p>
             <p className="mt-2 leading-relaxed">
-              Hold utca 12.
+              Csíkszereda utca 2.
               <br />
-              1054 Budapest
+              1182 Budapest
             </p>
           </div>
           <div>
@@ -41,10 +41,10 @@ export function Visit() {
             <p className="text-[11px] tracking-[0.2em] text-muted uppercase">Kapcsolat</p>
             <p className="mt-2 leading-relaxed">
               <a href="mailto:hello@rora.salon" className="underline-offset-4 hover:underline">
-                hello@rora.salon
+                rora@rora.hu
               </a>
               <br />
-              +36 30 555 0120
+              +36 30 --- ----
             </p>
           </div>
         </div>

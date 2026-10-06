@@ -9,7 +9,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-ink/60 via-ink/20 to-ink/35" />
       <div className="relative flex h-full flex-col items-center justify-end px-6 pb-16 text-center text-white md:pb-20">
         <p className="mb-5 text-[11px] font-medium tracking-[0.38em] uppercase">
-          Budapest · Fodrász és pedikűr
+          Budapest · Beauty Salon
         </p>
         <h1 className="font-serif text-6xl font-normal tracking-[0.08em] md:text-8xl">
           RORA
