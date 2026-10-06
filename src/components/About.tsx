@@ -3,7 +3,7 @@ export function About() {
     <section id="rolunk" className="grid lg:grid-cols-2">
       <div className="relative min-h-[520px] overflow-hidden bg-sand lg:min-h-[760px]">
         <img
-          src={`${import.meta.env.BASE_URL}images/about.jpg`}
+          src="/images/about.jpg"
           alt="A RORA szalon"
           className="absolute inset-0 h-full w-full object-cover"
         />
